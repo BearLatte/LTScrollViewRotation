@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Example
 //
-//  Created by Latte_Bear on 16/3/21.
+//  Created by Latte_Bear on 16/3/22.
 //  Copyright © 2016年 Latte_Bear. All rights reserved.
 //
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    self.window.backgroundColor = [UIColor whiteColor];
+    //    self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[RootViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
